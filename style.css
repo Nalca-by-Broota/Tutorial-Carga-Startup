@@ -1,0 +1,82 @@
+.step-section {
+    display: flex;
+    justify-content: center;
+}
+.step-content {
+    max-width: 960px; /* Adjust max width as needed */
+}
+
+.red-highlight {
+    color: red;
+}
+/* 
+body {
+    background-image: url('img/nalca_inicio.jpg');
+    background-color: rgba(255,255,255,0.95);
+    background-blend-mode: lighten;
+    background-size: cover;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2>span {
+    color: #31c589
+}
+
+.light-red {
+    color: #f0574c;
+}
+
+.step {
+    padding-bottom: 100px;
+}
+
+#myModal {
+    z-index: 9999;
+    width: 80%;
+    height: 80%;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+#myModal .modal-dialog {
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+#myModal .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2331c589' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2331c589' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+    background-color: #31c589;
+}
+
+.carousel-inner {
+    width: 450px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    overflow: hidden; /* Hide parts of the image that overflow */
+}
+
+.carousel-inner img {
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure width does not exceed container */
+    max-height: 100%; /* Ensure height does not exceed container */
+    margin: auto; /* Center the image */
+    display: block; /* Display images as block elements */
+}
